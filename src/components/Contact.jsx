@@ -10,11 +10,6 @@ import { slideIn } from "../utils/motion";
 const Contact = () => {
 
 
-  useEffect(() => {
-    console.log("SERVICE ID:", import.meta.env.VITE_APP_EMAILJS_SERVICE_ID);
-    console.log("TEMPLATE ID:", import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID);
-    console.log("USER ID:", import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY);
-  }, []);
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
