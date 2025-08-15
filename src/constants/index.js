@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  issue,
+  weather
 } from "../assets";
 
 export const navLinks = [
@@ -188,8 +190,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/Abhishek3777/IssueTracker",
+    image: issue,
+    source_code_link: "https://issue-tracker-theta-livid.vercel.app/",
   },
   {
     name: "Notes_App",
@@ -209,8 +211,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://weather-app-nu-six-91.vercel.app/",
   },
   {
     name: "Weather App",
@@ -230,7 +232,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: weather,
     source_code_link: "https://weather-app-nu-six-91.vercel.app/",
   },
 ];
