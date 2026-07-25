@@ -1,8 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
@@ -15,16 +11,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   issue,
-  weather
+  weather,
+  infinite,
 } from "../assets";
 
 export const navLinks = [
@@ -37,27 +27,12 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "projects",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
-  },
-];
-
-const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -118,13 +93,26 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer Intern",
-    company_name: "Infinite Computer Solutions",
+    title: "SDE Intern",
+    company_name: "Slnko Energy Private Limited",
     icon: reactjs,
     iconBg: "#383E56",
+    date: "Jan 2026 - Present",
+    points: [
+      "Built and shipped features across Protrac, a production customizable ERP (web + mobile): Next.js, React Native (Expo), and Node.js/Express APIs.",
+      "Worked on event-driven backend flows using Kafka (produce/consume, async workflows/jobs via inbox -> executors) and Redis for layout/runtime caching.",
+      "Implemented metadata-driven UI rendering to support configurable workflows without frontend code changes.",
+      "Debugged and fixed production issues across frontend, backend, and auth; collaborated with stakeholders on release and support.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company_name: "Infinite Computer Solutions",
+    icon: infinite,
+    iconBg: "#E6DEDD",
     date: "June 2025 - July 2025",
     points: [
-      "Built a full-stack Issue Tracker using React, Node.js, and MongoDB to manage task statuses and track work progress",
+      "Built a full-stack Issue Tracker using React, Node.js, and MongoDB to manage task statuses and track work progress.",
       "Implemented status transitions (Open → In Progress → Resolved → Closed/Unresolved) with automatic time tracking and SLA logic.",
       "Added authentication and role-based access, ensuring secure control over issue updates and deletions.",
       "Designed a clean UI with real-time feedback, confirmation prompts, and toast notifications for better user experience.",
@@ -134,14 +122,13 @@ const experiences = [
     title: "Full Stack Developer Intern",
     company_name: "KavachOne",
     icon: reactjs,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Sept 2024 - October 2024",
     points: [
       "Interned at KavachOne, focusing on the website's React prototype, performance optimizations, and SEO improvements.",
       "Improved user experience and site efficiency by applying best development practices.",
     ],
   },
-
 ];
 
 const testimonials = [
@@ -175,14 +162,14 @@ const projects = [
   {
     name: "Issue Tracker",
     description:
-      "A full-stack issue tracker app to log tasks, update statuses, and track resolution time for efficient workflow management.",
+      "Full-stack issue tracker to log tasks, move them through status workflows, track resolution time, and manage access with auth and role-based controls.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "node.js",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
@@ -194,41 +181,20 @@ const projects = [
     source_code_link: "https://issue-tracker-theta-livid.vercel.app/",
   },
   {
-    name: "Notes_App",
+    name: "Weather App",
     description:
-      "A full-stack notes app with user authentication and CRUD functionality to securely create, edit, and manage personal notes.",
+      "Responsive React weather app that fetches real-time data by location or search, with a clean Material UI interface for quick forecasts.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: weather,
-    source_code_link: "https://weather-app-nu-six-91.vercel.app/",
-  },
-  {
-    name: "Weather App",
-    description:
-      "A responsive React weather app that fetches real-time weather data based on user location or search input using a public API.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "material UI",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
@@ -237,4 +203,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { technologies, experiences, testimonials, projects };

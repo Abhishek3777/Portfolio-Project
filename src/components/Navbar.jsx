@@ -95,6 +95,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li className="flex items-center gap-4 pt-2">
+                <a href="https://github.com/Abhishek3777" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="GitHub" className="w-6 h-6 hover:opacity-80" />
+                </a>
+                <a href="https://www.linkedin.com/in/kumar-abhishek-6377b5297/" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedin} alt="LinkedIn" className="w-6 h-6 hover:opacity-80" />
+                </a>
+              </li>
             </ul>
           </div>
         </div>

@@ -101,17 +101,14 @@ Install the project dependencies using npm:
 npm install
 ```
 
-**Set Up Environment Variables**
+**Set Up Contact Form**
 
-Create a new file named `.env` in the root of your project and add the following content:
+The contact form works in two ways:
 
-```env
-REACT_APP_EMAILJS_USERID=your_emailjs_user_id
-REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
-REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
-```
+1. **Default (FormSubmit)** — messages go to `kr7abhishek04@gmail.com`. The first submission sends an activation email; confirm it once, then every form message lands in your inbox automatically.
+2. **Optional (EmailJS)** — copy `.env.example` to `.env`, add your EmailJS Service ID / Template ID / Public Key, and restart the dev server. When those values are set, EmailJS is used instead.
 
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+EmailJS template variables (if you use option 2): `{{from_name}}`, `{{from_email}}`, `{{message}}`, `{{to_name}}`, `{{reply_to}}`.
 
 **Running the Project**
 
