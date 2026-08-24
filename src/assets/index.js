@@ -29,7 +29,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import issue from "./issue.png";
+import issue from "./issuetracker.png";
 import weather from "./weather.png";
 import infinite from "./infinite.png";
 

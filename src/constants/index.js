@@ -34,6 +34,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "leetcode",
+    title: "Leetcode",
+    url: "https://leetcode.com/u/abhishekcoder7/",
+  },
 ];
 
 const technologies = [
@@ -93,7 +98,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE Intern",
+    title: "SDE Trainee",
     company_name: "Slnko Energy Private Limited",
     icon: reactjs,
     iconBg: "#383E56",
