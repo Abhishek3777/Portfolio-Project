@@ -111,7 +111,7 @@ const Contact = () => {
 
       setStatus({
         type: "success",
-        message: "Thanks! Your message was sent — I'll get back to you soon.",
+        message: "Thanks! Your message was sent. I'll get back to you soon.",
       });
       setForm({ name: "", email: "", message: "" });
     } catch (error) {

@@ -38,17 +38,17 @@ Hi! I'm **Kumar Abhishek**, a Software Developer specializing in building high-p
 
 ## 💼 Work Experience
 
-### 📍 **SDE Intern** — *Slnko Energy Private Limited* `(Jan 2026 – Present)`
+### 📍 **SDE** - *Slnko Energy Private Limited* `(Jan 2026 - Present)`
 - Built and shipped features across **Protrac**, a production customizable ERP (web + mobile) using **Next.js**, **React Native (Expo)**, and **Node.js/Express APIs**.
 - Developed event-driven backend flows using **Kafka** (produce/consume, async workflows/jobs) and **Redis** for layout & runtime caching.
 - Implemented metadata-driven UI rendering to support configurable workflows without frontend code updates.
 
-### 📍 **Software Developer Intern** — *Infinite Computer Solutions* `(June 2025 – July 2025)`
+### 📍 **Software Developer Intern** - *Infinite Computer Solutions* `(June 2025 - July 2025)`
 - Built a full-stack **Issue Tracker** using React, Node.js, and MongoDB to manage task statuses and track resolution workflows.
 - Implemented status transitions (`Open → In Progress → Resolved → Closed`), automatic time tracking, and SLA logic.
 - Configured authentication and role-based access control (RBAC).
 
-### 📍 **Full Stack Developer Intern** — *KavachOne* `(Sept 2024 – Oct 2024)`
+### 📍 **Full Stack Developer Intern** - *KavachOne* `(Sept 2024 - Oct 2024)`
 - Developed website React prototypes, optimized runtime performance, and enhanced SEO structure.
 
 ---

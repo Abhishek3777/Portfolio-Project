@@ -98,7 +98,20 @@ const technologies = [
 
 const experiences = [
   {
-    title: "SDE Trainee",
+    title: "Full Stack Developer",
+    company_name: "ACG Digital Marketing Pvt Ltd",
+    icon: reactjs,
+    iconBg: "#383E56",
+    date: "Aug 2026 - Present",
+    points: [
+      "Own the end-to-end development of the company's outreach products, including Formblast, Formblast GuestPostLinks, and Outreach Rangers, using Next.js, Node.js, TypeScript, PostgreSQL, and Railway.",
+      "Built AI-powered semantic search for the marketplace with vector embeddings and natural-language queries, helping users find more relevant listings.",
+      "Created GuestPostLinks, an automated lead-discovery pipeline that finds guest-post and backlink opportunities, extracts contact details, and has generated 204,830 unique leads across 34 campaigns in 30 days.",
+      "Developed Formblast, a B2B outreach platform built with Playwright, BullMQ, and Redis for bulk contact-form submissions, personalized pitches, and automated follow-ups. Currently building a Retrieval-Augmented Generation application so LLMs can use company-specific product, service, policy, and internal-documentation knowledge.",
+    ],
+  },
+  {
+    title: "SDE",
     company_name: "Slnko Energy Private Limited",
     icon: reactjs,
     iconBg: "#383E56",
