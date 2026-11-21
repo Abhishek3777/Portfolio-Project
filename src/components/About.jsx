@@ -19,7 +19,7 @@ const About = () => {
       >
         I'm a software developer building production web and mobile features with
         React, Next.js, React Native, and Node.js. I care about clean UX,
-        reliable APIs, and shipping work that holds up in real environments —
+        reliable APIs, and shipping work that holds up in real environments,
         from ERP workflows and event-driven backends to polished apps.
         Let's build something useful together.
       </motion.p>
